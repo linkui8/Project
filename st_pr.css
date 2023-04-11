@@ -1,0 +1,72 @@
+.maintext {
+    position: absolute;
+    top: 60%;
+    margin-left: 35%;
+    color: whitesmoke;
+    font-family: 'Catamaran';
+    font-size: 300%;
+    visibility: visible;
+}
+.podmaintext {
+    position: absolute;
+    top: 70%;
+    margin-left: 35.7%;
+    color: whitesmoke;
+    font-family: 'Cinzel';
+    font-size: 150%;
+    visibility: visible;
+}
+
+body {
+    background: url(fon.jpg) no-repeat;
+    background-size: cover;
+}
+
+.hr_main {
+    width: 45%;
+    height: 1%;
+    background-color: white;
+    margin-right: 0%;
+    margin-left: 27.5%;
+    top: 600px;
+    border-width: 0.5%;
+    border-color: white;
+    visibility: visible;
+}
+
+.sun { 
+    position: relative;
+    color: white;
+    text-decoration: none;
+    visibility: hidden;
+    background: url(sun_info.png) no-repeat;
+    top: 10%;
+    max-width: 80%;
+    margin: 0px auto;
+    height: 500px;
+    width: 150%;
+}
+
+.sun_img {
+    animation: rotate linear 40s;
+    animation-iteration-count: infinite;
+}
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    } 
+}
+
+@keyframes move2 {
+  1, 100% {
+/*    transform: translate(90%, 0);*/
+    visibility: visible;
+  }
+}
+
